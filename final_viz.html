@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix History - Ignacio Villanueva</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="scroll-container">
+        <section class="header scroll-area">
+            <img class="logo" src="netflixlogo.png" alt="Netflix logo">
+            <h1> Historial de Netflix </h1>
+            <h2> Visualización de la Información </h2>
+            <h3 > TP Datos Personales </h3>
+            <hr />
+            <div class="description">
+                <p><b>Objetivo:</b> Visualizar mi historial de Netflix, para recaudar informacion relacionada a cuantas horas en un año he visto netflix, cuales son mis generos mas vistos, cuales son las series mas vistas...
+            </div>
+            <div class="data">
+                <a href="#">Datos Crudos</a>
+                <a href="#">Datos Procesados</a>
+            </div>
+
+            <p class="scroll" onclick="document.querySelector('.vis').scrollIntoView({ behavior: 'smooth' });"> &#8595 </p>
+        </section>
+
+            <div class="custom-shape-divider-top-1650847847">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        <section class="vis scroll-area">
+            <div class='tableauPlaceholder' id='viz1650848494469' style='position: relative; width: inherit; height: 75%;margin-bottom: 3em'>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='Book1_16508435861400&#47;Dashboard2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16508435861400&#47;Dashboard2&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='no' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='no' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1650848494469');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';}
+                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';}
+                else { vizElement.style.width='100%';vizElement.style.height='977px';}
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </section>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
