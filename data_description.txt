@@ -1,0 +1,2 @@
+De Netflix se pudo extraer un dataset que contenia una lista 2 columnas: titulo y fecha.
+Apartir de esto se enriquecieron los datos utilizando la API de TheMovieDB (https://developers.themoviedb.org/) donde se pudo conseguir el genero y duracion de cada serie/pelicula.
